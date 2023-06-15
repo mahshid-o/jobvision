@@ -1,0 +1,195 @@
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("../font/Vazir-Thin.ttf");
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+*{
+    font-family:myFirstFont;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+    direction: "ltr";
+}
+#logo img{
+    max-width: 50px;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+#logo a {
+    color: #FFFFFF;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+#logo a:hover {
+    color: #e6e5e5; /* color: #284; */
+    font-size: 3.4rem;
+    cursor: pointer;
+}
+#logo img:hover{
+    cursor: pointer;
+    max-width: 48px;
+}
+header a {
+    color: #F1F1F1;
+    font-size: 2.5rem;
+}
+.header_nav:hover{
+    cursor: pointer;
+    color: #e6e5e5;
+    font-size: 2.4rem;
+}
+header{
+    top:0; left: 0; right:0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 70px;
+    padding:2rem 4%;
+    background-color: #1C51C5;
+    height: 100px;
+}
+body{
+    background-color: #EEF0F8;
+    overflow:hidden;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#head{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: start;
+    padding-bottom: 10px;
+    border-bottom: #1111118d 2px solid;
+}
+.new-thesis-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8rem;
+    display: flex;
+    width: 100%;
+    height: 450px;
+    justify-content: space-around;
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+.new-thesis {
+    background-color: #F9F9F9;
+    width: 70%;
+    border-radius: 10px;
+    padding: 2rem 5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+.new-thesis h4{
+    color: #111;
+    font-size: 3rem;
+}
+.information input {
+    background-color: #F9F9F9;
+    border: 1px solid #1111112b;
+    width: 400px;
+    height: 30px;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.information2 input {
+    background-color: #F9F9F9;
+    border: 1px solid #1111112b;
+    width: 250px;
+    height: 30px;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.information{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    /* font-size: 2rem; */
+}
+.information section {
+    height: 100%;
+}
+.information section div{
+    height: 15%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.information section label {
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+.buttons {
+    display: flex;
+    width: 100%;
+    align-items: end;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+    margin-bottom: 2rem;
+}
+#back{
+    width: 170px;
+    border-radius: 10px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2.5rem;
+    background-color: #EEF0F8;
+    color: #3460bfdd;
+}
+#register{
+    width: 170px;
+    border-radius: 10px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2.5rem;
+    color: #F1F1F1;
+    background-color: #3460bfdd;
+}
+#register:hover{
+    background-color: #1C51C5;
+    cursor: pointer;
+}
+#back:hover{
+    color: #EEF0F8;
+    background-color: #3460bfdd;
+    cursor: pointer;
+}
